@@ -1,0 +1,4124 @@
+.large-left-panel .divider {
+    background-color: #61707e;
+    margin-left: 16px;
+    margin-right: 36px;
+    display: flex;
+    flex: 1;
+    height: 2px
+    }
+.video-chat-avatar .avatar {
+    z-index: 2;
+    position: absolute
+    }
+.chat-right-icons-panel-container .chat-right-icons-panel-league .league-icon-floating .league-icon-container .avatar-container {
+    height: 56px;
+    width: 56px;
+    border-radius: 56px;
+    overflow: hidden
+    }
+.lol-pick-ban-slider .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.lol-pick-ban-slider .content .player-name {
+    color: #fff;
+    size: 18px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 12px
+    }
+.search-champion-panel .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.play-rate-card .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1
+    }
+.lol-player-versus-card .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.lol-player-game-summary .description {
+    color: #b9c4d4;
+    font-size: 10px
+    }
+.select-trade-partners .row {
+    display: flex;
+    flex-direction: row
+    }
+.trade-partner-roster-item .avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    border-radius: 48px;
+    background-image: linear-gradient(to left top, #3a465b, #a3bbd3);
+    overflow: hidden;
+    position: relative
+    }
+.trade-partner-roster-item .avatar-container .selected-over {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 206, 184, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    align-items: center;
+    justify-content: center
+    }
+.trade-partner-roster-item .avatar-container .selected-over .selected-text {
+    font-size: 12px;
+    color: #fff;
+    font-family: "Poppins";
+    z-index: 30
+    }
+.trade-center-player-box .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.trade-center-player-box .player-name {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Inter";
+    line-height: 20px;
+    max-width: 90px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+    }
+.best-available-player-container .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.best-available-player-container .player-item-container .avatar-container {
+    background-color: #181c28;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    width: 42px;
+    border-radius: 42px;
+    z-index: 10
+    }
+.best-available-player-container .player-item-container .data-container .name {
+    margin-top: 16px;
+    font-size: 14px;
+    color: #d8e2ed;
+    font-weight: 600
+    }
+.trade-center-asset-select-list .row {
+    display: flex;
+    align-items: center
+    }
+.trade-center-asset-select-list .avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    border-radius: 48px;
+    background-image: linear-gradient(#3a465b, #a3bbd3);
+    overflow: hidden;
+    position: relative
+    }
+.trade-summary .row {
+    display: flex;
+    align-items: center
+    }
+.trade-summary .roster-trade-container .roster-trade-summary .panel .meta {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px
+    }
+.trade-summary .roster-trade-container .roster-trade-summary .panel .meta .meta-text-1 {
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Inter";
+    font-weight: 600
+    }
+.trade-summary .roster-trade-container .roster-trade-summary .panel .meta .meta-text-2 {
+    color: #d8e2ed;
+    font-size: 10px;
+    line-height: 12px;
+    font-family: "Inter"
+    }
+.propose-trade-partners .description {
+    font-size: 14px;
+    color: #eef3f7
+    }
+.propose-trade-partners .row {
+    display: flex;
+    align-items: center
+    }
+.player-transaction-history-item .transaction-history-waiver .team-name, .player-transaction-history-item .transaction-history-draft .team-name, .player-transaction-history-item .transaction-history-fa .team-name, .player-transaction-history-item .transaction-history-trade .team-name {
+    font-weight: 900
+    }
+.player-card-v2-header .player-image {
+    position: absolute;
+    width: 156px;
+    height: 105px;
+    top: 10px;
+    left: 20px
+    }
+.player-card-v2-header .top-row .player-name {
+    height: 60px;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -1px;
+    text-align: left;
+    color: var(--white)
+    }
+.player-card-v2-header .top-row .player-name .player-last-name {
+    font-weight: 600;
+    margin-left: 8px
+    }
+.nba-player-gamelog .header-row {
+    display: flex;
+    flex-direction: row;
+    height: 28px;
+    padding: 4px 0 8px 24px;
+    background: rgba(163, 187, 211, 0.05)
+    }
+.player-card-v2-history .history-container .header-row {
+    display: flex;
+    flex-direction: row;
+    height: 28px;
+    padding: 4px 12px 8px 24px;
+    background: rgba(163, 187, 211, 0.05)
+    }
+.draft-board .team-column .team-name {
+    font-size: 13px;
+    font-weight: 900;
+    color: #555;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    padding: 0 7px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 102px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    height: 100%
+    }
+.draft-board .team-column .team-name .claim-btn {
+    font-size: 11px;
+    color: #fff;
+    font-weight: normal;
+    border-radius: 20px;
+    background: #6e7df5;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    margin-right: 2px;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: "Muli";
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-bottom: 1px
+    }
+.draft-board .team-column .team-name .claim-btn:hover {
+    opacity: 0.75
+    }
+.draft-board .team-column .team-name .commish {
+    height: 12px;
+    position: absolute
+    }
+.draft-board .team-column .team-name .fa-star {
+    font-size: 10px;
+    padding: 0 3px
+    }
+.draft-board .team-column .current-roster .cell .player-name {
+    color: #444
+    }
+.draft-board .team-column .current-roster.theme-dark .cell .player-name {
+    color: #a3bbd3
+    }
+.draft-board .team-column .keepers .cell .player-name {
+    color: #444
+    }
+.draft-board .team-column .keepers.theme-dark .cell .player-name {
+    color: #a3bbd3
+    }
+.draft-board .cell .player .player-name {
+    color: #022047;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 86px;
+    overflow: hidden;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: -0.25px;
+    text-align: left
+    }
+.full-screen-mode .team-name {
+    margin: 0 auto;
+    height: 100%
+    }
+.trade-list-item .row {
+    display: flex;
+    align-items: center
+    }
+.trade-list-item .assets-container .player-name {
+    font-size: 9px;
+    color: #fff;
+    max-width: 45px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 4px;
+    line-height: 10px;
+    font-family: "Inter"
+    }
+.trade-center-wrapper .row {
+    display: flex;
+    align-items: center
+    }
+.lol-weekly-report-message .row {
+    display: flex;
+    align-items: center
+    }
+.lol-weekly-report-modal .row {
+    display: flex;
+    align-items: center
+    }
+.lol-weekly-report-modal .divider {
+    height: 244px;
+    width: 1px;
+    background-color: rgba(106, 119, 144, 0.7);
+    margin: 0 24px
+    }
+.lol-weekly-report-modal .top-player-card .mid-section .player-name {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center
+    }
+.team-name {
+    color: #d8e2ed;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: "Inter";
+    font-weight: 500;
+    margin-bottom: 8px
+    }
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.lol-league-standings-container .row {
+    display: flex;
+    flex-direction: row
+    }
+.embed-process-upload .meta-container .name {
+    font-size: 12px
+    }
+.embed-upload.file-generic .file-link .name {
+    font-size: 12px
+    }
+.embed-trade-container .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.embed-trade-container > .player-info-container .avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px
+    }
+.embed-trade-container > .player-info-container > .player-meta .player-name {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    margin-top: 6px;
+    font-family: "Inter"
+    }
+.trade-list-item-dm .row {
+    display: flex;
+    align-items: center
+    }
+.trade-list-item-dm .avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    position: relative
+    }
+.trade-list-item-dm .meta {
+    margin-left: 8px;
+    margin-bottom: 8px
+    }
+.trade-list-item-dm .meta .meta-1 {
+    font-size: 12px;
+    line-height: 14px;
+    font-family: "Inter";
+    color: #fff;
+    font-weight: 500
+    }
+.trade-list-item-dm .meta .meta-2 {
+    font-size: 10px;
+    line-height: 12px;
+    font-family: "Inter";
+    color: #d8e2ed;
+    font-weight: 500
+    }
+.embed-reply .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.lol_matchup_card_container .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.lol_matchup_card_container .avatar-container {
+    position: absolute;
+    top: -20px;
+    z-index: 10
+    }
+.roster-matchup-tab-wrapper .row {
+    display: flex;
+    align-items: center;
+    flex-direction: row
+    }
+.matchup-player-row-container .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.matchup-player-row-container .player-image-row .player-image-item .player-image {
+    height: 32px;
+    width: 44px;
+    object-fit: cover
+    }
+.matchup-player-row-container .player-image-row .player-image-item .player-name {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 8px
+    }
+.matchup-player-row-container .player-image-row .player-image-item .player-pos {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    line-height: 12px;
+    color: #7988a1;
+    margin: 0 4px
+    }
+.matchup-player-item {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: relative
+    }
+.matchup-player-item.empty-player .matchup-player-body-item {
+    display: flex;
+    justify-content: center
+    }
+.matchup-player-item .header-row {
+    height: 32px;
+    min-height: 32px;
+    display: flex;
+    align-items: flex-end;
+    flex: 1;
+    justify-content: space-between;
+    margin-right: 20px
+    }
+.matchup-player-item .header-row .player-pos {
+    color: #a3bbd3;
+    font-size: 10px;
+    font-family: "Inter";
+    padding-left: 5px;
+    padding-right: 5px
+    }
+.matchup-player-item .header-row.flip {
+    flex-direction: row-reverse;
+    margin-left: 16px;
+    margin-right: 0
+    }
+.matchup-player-item .header-row.flip .player-name {
+    flex-direction: row-reverse
+    }
+.matchup-player-item .header-row.flip .nickname-container {
+    flex-direction: row-reverse
+    }
+.matchup-player-item .player-image {
+    height: 32px;
+    width: 44px;
+    object-fit: cover
+    }
+.matchup-player-item .player-name {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 8px
+    }
+.matchup-player-item .nickname-container {
+    display: flex;
+    align-items: center
+    }
+.matchup-player-item .nickname-container .roster-nickname {
+    color: #00baff;
+    font-size: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: 6px
+    }
+.matchup-player-item .nickname-container.flip .roster-nickname {
+    color: #fff
+    }
+.matchup-player-item .injury-container {
+    margin-left: 4px;
+    padding-bottom: 2px
+    }
+.matchup-player-body-item {
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    flex-direction: column;
+    background-color: rgba(163, 187, 211, 0.05);
+    border-radius: 16px;
+    padding: 12px;
+    box-sizing: border-box;
+    min-height: 60px;
+    cursor: pointer;
+    border: 1px solid rgba(58, 70, 91, 0.5);
+    position: relative
+    }
+.matchup-player-body-item .possession-indicator-wrapper {
+    position: absolute;
+    top: 0;
+    flex: 1;
+    left: 40px;
+    right: 10px
+    }
+.matchup-player-body-item .possession-indicator-wrapper.flip {
+    left: 10px;
+    right: 40px
+    }
+.matchup-player-body-item .container-row {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: flex-start
+    }
+.matchup-player-body-item .container-row.flip {
+    flex-direction: row-reverse
+    }
+.matchup-player-body-item .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.matchup-player-body-item .row.flip {
+    flex-direction: row-reverse
+    }
+.matchup-player-body-item .column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px
+    }
+.matchup-player-body-item .column.flip {
+    align-items: flex-end
+    }
+.possession-indicator-rate {
+    display: flex;
+    flex: 1;
+    align-items: center
+    }
+.possession-indicator-rate .divider {
+    position: relative;
+    justify-content: flex-start;
+    display: flex;
+    height: 4px;
+    flex: 1;
+    background-color: #3a465b
+    }
+.possession-indicator-rate .divider.flip {
+    justify-content: flex-end
+    }
+.league-tab-container .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Poppins", sans-serif
+    }
+.league-tab-container .league-tab-standings .league-standing-list .team-owner-with-description .avatar-container {
+    margin-right: 4px
+    }
+.league-tab-container .league-tab-standings .league-standing-list .team-owner-with-description .meta {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center
+    }
+.league-tab-container .league-tab-standings .league-standing-list .team-owner-with-description .meta .team-name {
+    margin-left: 4px;
+    max-width: 40 !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+    }
+.league-tab-container .league-tab-standings .league-standing-list .team-owner-with-description .meta .name {
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis
+    }
+.league-tab-container .league-tab-standings .league-standing-list .team-owner-with-description .meta .name .commish-badge {
+    margin: 0
+    }
+.league-tab-container .league-tab-standings .league-standing-list .team-owner-with-description .meta .description {
+    position: absolute;
+    color: #fff;
+    font-size: 16px;
+    right: 0
+    }
+.league-tab-container .league-settings-container .league-settings .settings-row .name {
+    color: #7988a1;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600px
+    }
+.scoring-container .scoring-settings .settings-row .name {
+    font-size: 12px;
+    color: #7988a1;
+    font-weight: 600px
+    }
+.playoff-modal .row {
+    display: flex;
+    align-items: center;
+    flex-direction: row
+    }
+.league-members-container .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.league-members-container .teams-container .meta {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative
+    }
+.league-members-container .teams-container .meta .team-name {
+    margin-left: 4px;
+    max-width: 40 !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+    }
+.league-members-container .teams-container .meta .name {
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis
+    }
+.league-members-container .teams-container .meta .name .commish-badge {
+    margin: 0
+    }
+.league-members-container .teams-container .meta .description {
+    position: absolute;
+    top: 20px;
+    width: 130px;
+    height: 12px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: #a3bbd3
+    }
+.trade-panel-container .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.trade-block-player .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.trade-block-player .avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    position: relative
+    }
+.trade-block-player .avatar-container .heart-container {
+    position: absolute;
+    top: -3px;
+    right: -5px
+    }
+.trade-block-player .player-name {
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Inter";
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+    }
+.trade-block-pick .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.user-tab-menu .row {
+    display: flex;
+    align-items: center;
+    flex-direction: row
+    }
+.user-tab-menu .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 24px;
+    position: relative
+    }
+.user-tab-menu .info .name-row .name {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: "Poppins"
+    }
+.league-invite-friends-cta-container .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.league-invite-friends-cta-container .divider {
+    display: flex;
+    height: 40px;
+    width: 2px;
+    background-color: #a3bbd3;
+    margin-top: 8px;
+    border-radius: 4px;
+    margin-left: 8px;
+    margin-right: 8px
+    }
+.predraft-tab-container .row {
+    display: flex;
+    align-items: center;
+    flex-direction: row
+    }
+.predraft-tab-container .scoring-settings .settings-row .name {
+    font-size: 12px;
+    color: #7988a1;
+    font-weight: 600px
+    }
+.predraft-tab-container .league-settings-container .league-settings .settings-row .name {
+    color: #7988a1;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600px
+    }
+.predraft-draftboard-card .row {
+    display: flex;
+    align-items: center;
+    flex-direction: row
+    }
+.predraft-draftboard-card .draft-button .divider {
+    height: 16px;
+    width: 2px;
+    background-color: #022047;
+    margin: 0 4px
+    }
+.predraft-draftboard-card .name {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif
+    }
+.predraft-draftboard-card .description {
+    font-size: 10px;
+    margin-top: 4px;
+    text-align: center
+    }
+.fast-five-promo-modal .row {
+    display: flex;
+    align-items: center
+    }
+.fast-five-promo-modal .fast-five-modal-content .pos-item .description {
+    font-size: 10px;
+    line-height: 15px;
+    font-family: "Poppins";
+    font-weight: medium;
+    color: #fff;
+    text-align: center;
+    margin-top: 2px
+    }
+.lol-starter-card .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.lol-starter-card .player-header .player-meta-container .player-name {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100px
+    }
+.lol-score-and-projection-row .row {
+    display: flex;
+    flex-direction: row
+    }
+.fast-five-player-indicator .row {
+    display: flex;
+    align-items: center
+    }
+.fast-five-player-indicator .content-row .description {
+    font-family: "Poppins";
+    font-size: 10px;
+    line-height: 12px;
+    color: #fff
+    }
+.fast-five-player-indicator .content-row .score {
+    font-size: 14px;
+    color: #fff;
+    font-family: "Poppins";
+    font-weight: bold
+    }
+.fast-five-promo-banner .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.onboard-image-panel .description {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -0.1px;
+    font-family: "Lato";
+    color: #e6effa
+    }
+.onboard-image-panel-login .description {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -0.1px;
+    font-family: "Lato";
+    color: #e6effa
+    }
+.auth-style-modal .description {
+    font-size: 12px;
+    color: #aaa
+    }
+.autocomplete-command-item .name {
+    font-weight: bold;
+    margin-left: 7px
+    }
+.autocomplete-command-item .description {
+    font-size: 11px;
+    color: #555;
+    line-height: 13px;
+    margin-left: 10px
+    }
+.autocomplete-player-item .name {
+    margin: 0 10px 0 15px;
+    font-weight: bold
+    }
+.autocomplete-player-item .meta {
+    font-size: 11px;
+    color: #888
+    }
+.bracket-matchup > .wrapper > .team-item .team-name {
+    font-size: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+    white-space: nowrap
+    }
+.members-settings .empty-state > .description {
+    font-size: 13px;
+    margin-top: 5px;
+    color: #ccc
+    }
+.members-settings .channel-member-item > .meta {
+    flex-grow: 1;
+    font-size: 14px
+    }
+.members-settings .channel-member-item > .meta > .name {
+    font-weight: bold
+    }
+.members-settings .channel-member-item > .meta > .role-name {
+    font-size: 12px;
+    color: #bbb;
+    margin-top: 3px
+    }
+.channel-header .name-container .name {
+    font-size: 16px;
+    font-weight: 800;
+    font-family: "Muli";
+    line-height: 20px
+    }
+.channel-header .name-container .description {
+    color: #7888a4;
+    font-size: 12px
+    }
+.channel-settings .channel-settings-header > .meta {
+    flex-grow: 1
+    }
+.channel-settings .channel-settings-header .description {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #a3bbd3
+    }
+.channel-settings .channel-settings-body .channel-settings-empty-state > .description {
+    font-size: 13px;
+    margin-top: 5px;
+    color: #ccc
+    }
+.channel-settings .channel-settings-body .channel-settings-empty-state > .description {
+    padding-bottom: 32px
+    }
+.channel-form .upload .meta {
+    margin-left: 20px
+    }
+.channel-form .upload .meta .title {
+    font-weight: bold;
+    font-size: 15px;
+    color: #fff
+    }
+.channel-form .upload .meta .description {
+    font-size: 12px;
+    color: #bbb;
+    margin-top: 5px;
+    margin-bottom: 8px
+    }
+.members-settings .channel-member-item > .meta {
+    flex-grow: 1;
+    font-size: 14px;
+    margin-left: 15px
+    }
+.members-settings .channel-member-item > .meta > .name {
+    font-weight: bold
+    }
+.members-settings .channel-member-item > .meta > .role-name {
+    font-size: 12px;
+    color: #bbb;
+    margin-top: 3px
+    }
+.set-member-roles .channel-settings-header > .meta {
+    margin-left: 15px
+    }
+.set-member-roles .channel-settings-body > .member-role-item > .meta > .role-name {
+    font-weight: bold;
+    font-size: 14px
+    }
+.set-member-roles .channel-settings-body > .member-role-item > .meta > .role-permissions {
+    margin-top: 3px;
+    font-size: 12px;
+    color: #bbb;
+    line-height: 1.2
+    }
+.topic-type-options .tag-item.selected .description {
+    color: #fff !important
+    }
+.topic-type-options .tag-item .meta {
+    margin-left: 10px
+    }
+.topic-type-options .tag-item .meta .title {
+    font-weight: bold;
+    font-size: 14px
+    }
+.topic-type-options .tag-item .meta .description {
+    font-size: 12px;
+    color: #bbb;
+    margin-top: 3px
+    }
+.topic-type-selector .selected-tag-item .meta {
+    margin-left: 0
+    }
+.notification-tag-item > .metadata > .name {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 5px 0
+    }
+.notification-tag-item > .metadata > .description {
+    font-size: 12px;
+    color: #bbb
+    }
+.role-settings .channel-settings-body .permissions-list .role-permission-item > .permission-metadata > .name {
+    font-size: 14px
+    }
+.role-settings .channel-settings-body .permissions-list .role-permission-item > .permission-metadata > .description {
+    font-size: 12px;
+    color: #bbb;
+    margin-top: 2px
+    }
+.tag-player-modal .channel-settings-body .tag-player-item > .meta {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold
+    }
+.tag-player-modal .channel-settings-body .tag-player-item > .meta .position {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #aaa
+    }
+.topic-item .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.chat-header .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.chat-header .row .count {
+    font-size: 12px;
+    color: #a3bbd3
+    }
+.chat-header .row .bottom-text {
+    font-size: 12px;
+    color: #a3bbd3
+    }
+.chat-header .name {
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: 12px
+    }
+.chat-input .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.chat-input .reply-header .reply .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.draftboard-page .bottom-container .chat .chat-panel-toggle .chat-panel-menu .menu-item .avatar {
+    margin-right: 5px
+    }
+.chat-panel-empty > .description {
+    font-size: 13px;
+    margin-top: 5px;
+    color: #ccc
+    }
+.chat-panel-empty > .description {
+    padding-bottom: 60px
+    }
+.chat-default-copy-item .description {
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 20px
+    }
+.comment-group .avatar {
+    -webkit-flex: 0 0 40px;
+    -ms-flex: 0 0 40px;
+    flex: 0 0 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300
+    }
+.comment-group .name {
+    font-weight: bold;
+    margin-right: 10px
+    }
+.reaction-members .user .avatar {
+    -webkit-flex: 0 0 15px;
+    -ms-flex: 0 0 15px;
+    flex: 0 0 15px;
+    margin-right: 7px !important;
+    font-size: 7px !important
+    }
+.embed-draft-link .name {
+    font-size: 16px
+    }
+.embed-draft-link .description {
+    margin-top: 2px;
+    font-size: 12px;
+    margin-bottom: 13px
+    }
+.embed-draft-order .draft-order-item .draft-order-item-row .name {
+    font-weight: bold;
+    font-size: 14px
+    }
+.embed-invite-link .meta {
+    margin-left: 20px;
+    flex-grow: 1
+    }
+.embed-invite-link .meta .header-text {
+    font-size: 9px;
+    text-transform: uppercase;
+    margin-bottom: 6px
+    }
+.embed-invite-link .meta .name {
+    font-size: 16px
+    }
+.embed-invite-link .meta .description {
+    margin-top: 2px;
+    font-weight: 300
+    }
+.embed-team-name > .team-name {
+    font-size: 13px;
+    padding: 4px 0;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.5px
+    }
+.embed-league-transaction .player-image {
+    width: 50px;
+    height: 40px;
+    border-radius: 4px;
+    background: #ccc;
+    margin-right: 5px
+    }
+.embed-league-transaction .meta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+    }
+.embed-league-transaction .name {
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold
+    }
+.embed-league-transaction .description {
+    margin-top: 2px;
+    font-size: 12px;
+    color: #fff
+    }
+.embed-reply .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.embed-roster > .roster-header > .roster-header-meta .team-name {
+    font-size: 14px;
+    font-weight: bold
+    }
+.embed-roster > .roster-list .roster-row .player-meta .name {
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    align-items: center
+    }
+.embed-roster > .roster-list .roster-row .player-meta .name .nickname {
+    font-size: 10px;
+    padding-left: 7px;
+    font-weight: normal
+    }
+.embed-side-discussion .meta {
+    margin: 10px 15px;
+    display: flex;
+    align-items: center
+    }
+.embed-side-discussion .meta .title {
+    font-size: 16px;
+    font-weight: bold
+    }
+.embed-side-discussion .meta .description {
+    margin-top: 2px;
+    font-weight: 300
+    }
+.embed-side-discussion .meta .discussion-tag {
+    color: #fff;
+    border-color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    z-index: 1;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid;
+    margin-right: 10px;
+    -webkit-flex: 0 0 40px;
+    -ms-flex: 0 0 40px;
+    flex: 0 0 40px
+    }
+.embed-team-name > .team-name {
+    font-size: 13px;
+    padding: 4px 0;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.5px
+    }
+.embed-trade-container .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.embed-trade-container > .player-info-container .avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px
+    }
+.embed-trade-container > .player-info-container > .player-meta .player-name {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+    margin-top: 6px;
+    font-family: "Inter"
+    }
+.embed-process-upload .meta-container .name {
+    font-size: 12px
+    }
+.embed-upload.file-generic .file-link .name {
+    font-size: 12px
+    }
+.embed-url.small-image .meta {
+    margin-top: 0;
+    padding-top: 0
+    }
+.embed-url.tweet .meta .description {
+    font-size: 14px;
+    margin-top: 0
+    }
+.embed-url .meta {
+    padding-top: 12px
+    }
+.embed-url .meta .title {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    color: #4183d7
+    }
+.embed-url .meta .title:hover {
+    opacity: 0.7
+    }
+.embed-url .meta .description {
+    margin-top: 9px;
+    font-size: 12px;
+    line-height: 1.3
+    }
+.embed-url .meta .source {
+    font-size: 10px;
+    margin-top: 9px;
+    color: #ccc
+    }
+.embed-video .meta {
+    padding-top: 12px
+    }
+.embed-video .meta .title {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.2px
+    }
+.embed-video .meta .source {
+    font-size: 10px;
+    margin-top: 9px;
+    color: #ccc
+    }
+.topic-chat-presence .avatar-container {
+    border: 3px solid #41495c;
+    border-radius: 50%;
+    background: #41495c;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    }
+.topic-chat-presence .avatar-container span {
+    font-size: 13px;
+    font-weight: bold;
+    color: #a3bbd3
+    }
+.unread-divider .divider {
+    background: #00ceb8;
+    height: 1px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 15px;
+    z-index: 1
+    }
+.chat-right-icons-panel-container .chat-right-icons-panel-league .league-icon-floating .league-icon-container .avatar-container {
+    height: 56px;
+    width: 56px;
+    border-radius: 56px;
+    overflow: hidden
+    }
+.avatar-picker .row {
+    margin: 0;
+    padding: 0;
+    display: flex
+    }
+.avatar {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+    }
+.custom-checkbox-item > .meta {
+    font-size: 15px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+    }
+.custom-checkbox-item > .meta > .name {
+    font-weight: bold;
+    color: #677897
+    }
+.custom-checkbox-item > .meta > .description {
+    font-size: 12px;
+    margin-top: 3px;
+    color: #a3bbd3
+    }
+.custom-radio-item > .meta {
+    font-size: 15px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+    }
+.custom-radio-item > .meta > .name {
+    font-weight: bold
+    }
+.custom-radio-item > .meta > .description {
+    font-size: 12px;
+    margin-top: 3px;
+    color: #bbb
+    }
+.custom-dropdown .dropdown-items .custom-dropdown-item > .meta {
+    font-size: 12px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+    }
+.custom-dropdown .dropdown-items .custom-dropdown-item > .meta > .name {
+    font-weight: bold
+    }
+.custom-dropdown .dropdown-items .custom-dropdown-item > .meta > .description {
+    font-size: 12px;
+    margin-top: 3px;
+    color: #bbb
+    }
+.custom-horizontal-select .custom-horizontal-select-item > .meta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+    }
+.custom-horizontal-select .custom-horizontal-select-item > .meta > .name {
+    font-weight: bold;
+    font-size: 15px
+    }
+.custom-horizontal-select .custom-horizontal-select-item > .meta > .description {
+    font-size: 10px;
+    margin-top: 3px
+    }
+.custom-switch .text .description {
+    font-size: 11px;
+    margin-left: 10px
+    }
+.panel-tabs .tabs-container .tab-item .name {
+    font-weight: bold
+    }
+.panel-tabs .tabs-container .tab-item .description {
+    font-size: 11px;
+    color: #aaa;
+    margin-top: 3px
+    }
+.send-sms-dl-link-form .description {
+    font-size: 14px;
+    margin-bottom: 5px;
+    opacity: 0.4;
+    font-weight: 300
+    }
+.app-dropdown .dropdown-items .app-dropdown-item .meta {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start
+    }
+.app-dropdown .dropdown-items .app-dropdown-item .meta .name {
+    font-weight: 700;
+    color: #a3bbd3
+    }
+.app-dropdown .dropdown-items .app-dropdown-item .meta .description {
+    color: #a3bbd3;
+    margin-left: 4px
+    }
+.app-dropdown .dropdown-items .app-dropdown-item:hover .name {
+    color: #fff
+    }
+.app-dropdown .dropdown-items .app-dropdown-item.selected .name {
+    color: #00ceb8
+    }
+.draft-popup-menu > .item .description {
+    font-weight: normal;
+    font-size: 13px;
+    margin-top: 4px;
+    color: #999
+    }
+.draft-list-panel-header .name-container .name {
+    font-size: 24px;
+    font-weight: 800;
+    font-family: "Muli";
+    line-height: 32px
+    }
+.draft-list-panel-header .name-container .description {
+    color: #7888a4;
+    font-size: 12px
+    }
+.draft-list-panel .tabs-container .tab-item .description {
+    font-size: 13px
+    }
+.draft-list .draft-list-item .body .meta {
+    display: flex;
+    flex-direction: row;
+    margin: 15px
+    }
+.draft-rankings .header-filters .filter-button .custom-checkbox-item .meta .name {
+    font-size: 10px;
+    color: #fbfbfb
+    }
+.draft-rankings .header-filters.theme_light .custom-checkbox-item .meta .name {
+    color: #3a465b
+    }
+.draft-rankings .header .row {
+    display: flex
+    }
+.draft-rankings .header .row > div {
+    padding: 8px 0 8px 10px
+    }
+.draft-rankings .header .row > .rank {
+    width: 30px;
+    padding-right: 5px;
+    padding-left: 43px;
+    font-size: 12px;
+    font-family: "Muli"
+    }
+.draft-rankings .header .row > .position {
+    width: 40px
+    }
+.draft-rankings .header .row > .name {
+    width: 205px;
+    padding-left: 10px
+    }
+.draft-rankings .header .row > .pts-and-proj {
+    width: 90px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px
+    }
+.draft-rankings .header .row > .rush-header, .draft-rankings .header .row > .rec-header, .draft-rankings .header .row > .pass-header {
+    width: 140px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px
+    }
+.draft-rankings .header.lol > .row > .name.section-name {
+    width: 225px
+    }
+.draft-rankings .player-rank-item.show-watchlist-action:hover .name {
+    padding-left: 35px !important
+    }
+.draft-rankings .player-rank-item.watching .name {
+    padding-left: 35px !important
+    }
+.draft-rankings .player-rank-item > .name {
+    width: 216px;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: relative
+    }
+.draft-rankings .player-rank-item > .name .name-wrapper {
+    text-align: left;
+    font-weight: bold;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    flex-grow: 1
+    }
+.draft-rankings .player-rank-item > .name .injury-status {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #f00
+    }
+.draft-rankings .player-rank-item > .name .injury-status.probable {
+    color: #ffa500
+    }
+.draft-rankings .player-rank-item > .name .team {
+    font-size: 11px;
+    color: #777;
+    padding-left: 10px
+    }
+.draft-rankings .player-rank-item > .name .watchlist-action {
+    padding-right: 5px;
+    transform: scale(0);
+    transition: all 0.2s ease;
+    position: absolute;
+    left: 3px;
+    padding: 10px
+    }
+.draft-rankings .player-rank-item > .name .watchlist-action .fa-plus {
+    font-size: 6px
+    }
+.draft-settings-draft-order .team-item .name {
+    padding-left: 10px;
+    font-weight: bold
+    }
+.sortable-list-team-item .name {
+    padding-left: 10px;
+    font-weight: bold
+    }
+.draftboard-page-unauth .overlay-container .avatar-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #efefef
+    }
+.draftboard-page-unauth .overlay-container .name {
+    margin-top: 50px;
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center
+    }
+.draftboard-page-unauth .overlay-container .meta {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    width: 100%
+    }
+.draft-popup-menu > .item .description {
+    font-weight: normal;
+    font-size: 13px;
+    margin-top: 4px;
+    color: #999
+    }
+.theme-dark .draft-board .team-column .team-name {
+    color: #eee
+    }
+.theme-dark .draft-rankings .player-rank-item2 > .name .queue-action {
+    background: #31375b
+    }
+.theme-dark .draft-rankings .player-rank-item2 > .name .queue-action.selected {
+    background: #6e7df5
+    }
+.draft-board .team-column .team-name {
+    font-size: 13px;
+    font-weight: 900;
+    color: #555;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    padding: 0 7px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 102px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+    height: 100%
+    }
+.draft-board .team-column .team-name .claim-btn {
+    font-size: 11px;
+    color: #fff;
+    font-weight: normal;
+    border-radius: 20px;
+    background: #6e7df5;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+    margin-right: 2px;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: "Muli";
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-bottom: 1px
+    }
+.draft-board .team-column .team-name .claim-btn:hover {
+    opacity: 0.75
+    }
+.draft-board .team-column .team-name .commish {
+    height: 12px;
+    position: absolute
+    }
+.draft-board .team-column .team-name .fa-star {
+    font-size: 10px;
+    padding: 0 3px
+    }
+.draft-board .team-column .current-roster .cell .player-name {
+    color: #444
+    }
+.draft-board .team-column .current-roster.theme-dark .cell .player-name {
+    color: #a3bbd3
+    }
+.draft-board .team-column .keepers .cell .player-name {
+    color: #444
+    }
+.draft-board .team-column .keepers.theme-dark .cell .player-name {
+    color: #a3bbd3
+    }
+.draft-board .cell .player .player-name {
+    color: #022047;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 86px;
+    overflow: hidden;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: -0.25px;
+    text-align: left
+    }
+.full-screen-mode .team-name {
+    margin: 0 auto;
+    height: 100%
+    }
+.new-draft-panel .description {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 15px
+    }
+.player-rank-item2 > .name {
+    width: 216px;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: "Muli"
+    }
+.player-rank-item2 > .name .name-wrapper {
+    text-align: left;
+    font-weight: 700;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    flex-grow: 1;
+    font-size: 12px
+    }
+.player-rank-item2 > .name .name-wrapper .position-dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    margin-right: 3px
+    }
+.player-rank-item2 > .name .name-wrapper .position {
+    font-size: 10px;
+    font-family: "Muli";
+    padding-top: 2px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    line-height: 12px;
+    font-weight: normal
+    }
+.player-rank-item2 > .name .name-wrapper .position .rookie-label {
+    height: 13px;
+    margin-left: 5px;
+    position: relative;
+    top: -1px
+    }
+.player-rank-item2 > .name .injury-status {
+    font-size: 9px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    color: #f00;
+    margin-left: 5px
+    }
+.player-rank-item2 > .name .injury-status.probable {
+    color: #ffa500
+    }
+.player-rank-item2 > .name .team {
+    padding-left: 6px;
+    color: #677897
+    }
+.player-rank-item2 > .name .watchlist-action {
+    padding-right: 5px;
+    transition: all 0.2s ease;
+    left: 3px;
+    padding: 10px
+    }
+.player-rank-item2 > .name .watchlist-action img {
+    height: 22px;
+    transition: all 0.1s linear;
+    transform: scale(1)
+    }
+.player-rank-item2 > .name .watchlist-action:hover {
+    opacity: 0.85
+    }
+.player-rank-item2 > .name .watchlist-action:hover img {
+    transform: scale(1.25)
+    }
+.player-rank-item2 > .name .queue-action {
+    margin-right: 15px;
+    transition: all 0.2s ease;
+    left: 3px;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dbdef8
+    }
+.player-rank-item2 > .name .queue-action.selected {
+    background: #6e7df5
+    }
+.player-rank-item2 > .name .queue-action img {
+    height: 16px;
+    transition: all 0.1s linear;
+    transform: scale(1)
+    }
+.player-rank-item2 > .name .queue-action:hover img {
+    transform: scale(1.25)
+    }
+.player-stats-modal .player-header .name {
+    font-weight: bold;
+    font-size: 16px
+    }
+.player-stats-modal .player-header .meta {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 15px
+    }
+.player-stats-modal .player-header .meta .bio {
+    margin-left: 20px
+    }
+.player-stats-modal .player-header .meta .bio .college, .player-stats-modal .player-header .meta .bio .experience, .player-stats-modal .player-header .meta .bio .age {
+    font-size: 12px;
+    margin-top: 4px;
+    opacity: 0.8
+    }
+.roster-requirement-status .filter-item .name {
+    text-align: center;
+    font-weight: bold
+    }
+.roster-requirement-status2 .filter-item .name {
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap
+    }
+.add-friend-panel .empty-state > .description {
+    font-size: 13px;
+    margin-top: 5px;
+    color: #ccc
+    }
+.add-friend-panel > .results > .member-item > .meta {
+    flex-grow: 1;
+    font-size: 16px;
+    margin-left: 15px
+    }
+.add-friend-panel > .results > .member-item > .meta > .name {
+    font-weight: bold
+    }
+.add-friend-panel > .results > .member-item > .meta > .role-name {
+    font-size: 12px;
+    color: #a3bbd3;
+    margin-top: 3px
+    }
+.blocked-list .channel-settings-body .empty-state > .description {
+    font-size: 13px;
+    margin-top: 5px;
+    color: #ccc
+    }
+.blocked-list .user-item > .meta {
+    margin-left: 15px;
+    flex-grow: 1
+    }
+.blocked-list .user-item > .meta > .name {
+    font-weight: bold;
+    font-size: 14px
+    }
+.blocked-list .user-item > .meta > .description {
+    font-size: 12px;
+    color: #a3bbd3;
+    margin-top: 3px
+    }
+.friend-item > .meta {
+    margin-left: 15px;
+    flex-grow: 1
+    }
+.friend-item > .meta > .name {
+    font-weight: bold;
+    font-size: 14px
+    }
+.friend-item > .meta > .description {
+    font-size: 12px;
+    color: #a3bbd3;
+    margin-top: 3px
+    }
+.friend-request-item > .request > .meta {
+    margin-left: 15px;
+    flex-grow: 1
+    }
+.friend-request-item > .request > .meta > .name {
+    font-weight: bold;
+    font-size: 14px
+    }
+.friend-request-item > .request > .meta > .description {
+    font-size: 12px;
+    color: #bbb;
+    margin-top: 3px
+    }
+.game-center-leaderboard > .players-list > .player-item > .score {
+    -webkit-flex: 0 0 40px;
+    -ms-flex: 0 0 40px;
+    flex: 0 0 40px;
+    font-size: 14px;
+    font-weight: bold
+    }
+.game-center-leaderboard > .players-list > .player-item > .player-meta .name {
+    font-weight: bold
+    }
+.game-center-leaderboard > .players-list > .player-item > .player-meta .name .position {
+    font-size: 12px;
+    color: #888;
+    padding-left: 5px
+    }
+.game-center-leaderboard > .players-list > .player-item > .player-meta .player-stat-text {
+    color: #bbb;
+    margin-top: 3px
+    }
+.game-center-leaderboard2 .game-center-leaderboard-player-item .player-meta .name {
+    font-size: 13px;
+    font-weight: 700
+    }
+.game-center-leaderboard2 .game-center-leaderboard-player-item .player-meta .player-stat-text {
+    color: #627391;
+    padding-top: 5px
+    }
+.game-center-leaderboard2 .game-center-leaderboard-player-item .score {
+    font-size: 15px;
+    font-weight: 700
+    }
+.game-center-panel .scoring-setting-selector .scoring-settings-item .meta {
+    flex-grow: 1;
+    padding: 0 15px;
+    color: #e0e0e0
+    }
+.game-center-panel .scoring-setting-selector .scoring-settings-item .meta .name {
+    font-size: 14px;
+    font-weight: bold
+    }
+.game-center-panel .scoring-setting-selector .scoring-settings-item .meta .desc {
+    font-size: 11px;
+    margin-top: 3px
+    }
+.game-ticker-item .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.game-ticker-item > .team .score {
+    flex-grow: 1;
+    text-align: right;
+    padding-right: 5px
+    }
+.play-by-play-player .player-meta > .name {
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff
+    }
+.play-by-play-player .player-meta > .name .position {
+    font-size: 11px;
+    padding-left: 5px;
+    color: #a3bbd3
+    }
+.players-in-game > .player-position-groups .position-leaders-section > .player-item .away-player > .player .player-meta .name, .players-in-game > .player-position-groups .position-leaders-section > .player-item .home-player > .player .player-meta .name {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+    }
+.players-in-game > .player-position-groups .position-leaders-section > .player-item .away-player > .player .player-meta .player-stat-text, .players-in-game > .player-position-groups .position-leaders-section > .player-item .home-player > .player .player-meta .player-stat-text {
+    padding-top: 6px;
+    font-size: 10px;
+    color: #a3bbd3;
+    line-height: 1.15
+    }
+.row {
+    display: flex;
+    align-items: center;
+    flex-direction: row
+    }
+.team-score-header .team .score {
+    font-size: 32px
+    }
+.team-score-header .left .avatar {
+    position: absolute;
+    left: 0;
+    z-index: 0;
+    opacity: 0.1;
+    top: 0
+    }
+.team-score-header .left .score {
+    margin-right: 16px
+    }
+.team-score-header .right .avatar {
+    position: absolute;
+    right: 0;
+    z-index: 0;
+    opacity: 0.1;
+    top: 0
+    }
+.team-score-header .right .score {
+    margin-left: 16px
+    }
+.trending-list > .players-list > .trending-item > .score {
+    -webkit-flex: 0 0 40px;
+    -ms-flex: 0 0 40px;
+    flex: 0 0 40px;
+    font-size: 14px;
+    font-weight: bold
+    }
+.trending-list > .players-list > .trending-item > .player-meta .name {
+    font-weight: bold
+    }
+.trending-list > .players-list > .trending-item.trending .score {
+    color: #489b2c
+    }
+.trending-list > .players-list > .trending-item.falling .score {
+    color: #ee6761
+    }
+.inbox-panel-header .name-container .name {
+    font-size: 24px;
+    font-weight: 800;
+    font-family: "Muli";
+    line-height: 32px
+    }
+.inbox-panel-header .name-container .description {
+    color: #7888a4;
+    font-size: 12px
+    }
+.inbox-commented-item .message-container .user .name {
+    padding-right: 7px
+    }
+.mention-item-container > .mention-item .content .user .name {
+    padding-right: 7px
+    }
+.integration-panel .integration-panel-item .name {
+    max-width: 70px;
+    font-size: 10px;
+    font-family: "Muli";
+    opacity: 0.6;
+    color: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    margin-top: 5px;
+    z-index: 1
+    }
+.integration-panel .integration-panel-item.selected .name {
+    opacity: 1;
+    color: #01ceb8
+    }
+.player-list-item .player-meta-container .name {
+    font-size: 12px;
+    font-weight: 700;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+    }
+.player-list-item .player-meta-container .name-container .game-schedule-live-description {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap
+    }
+.player-list-item .game-schedule-live-description {
+    opacity: 0.6;
+    min-height: 11px
+    }
+.game-schedule-wrapper .game-schedule-live-description {
+    color: #a3bbd3;
+    font-size: 11px
+    }
+.integration-players-panel .row {
+    display: flex;
+    align-items: center;
+    flex-direction: row
+    }
+.integration-players-panel .filter-button .teams-section .team .team-name {
+    font-size: 9px;
+    color: #b9c4d4;
+    margin-top: 4px
+    }
+.integration-players-panel .filter-button .teams-section .team .avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(58, 70, 91, 0.5);
+    height: 26px;
+    width: 26px;
+    border-radius: 26px;
+    border: 1px solid rgba(58, 70, 91, 0.5);
+    cursor: pointer
+    }
+.best-available-player-container .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.best-available-player-container .player-item-container .avatar-container {
+    background-color: #181c28;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    width: 42px;
+    border-radius: 42px;
+    z-index: 10
+    }
+.best-available-player-container .player-item-container .data-container .name {
+    margin-top: 16px;
+    font-size: 14px;
+    color: #d8e2ed;
+    font-weight: 600
+    }
+.trending-list-item .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.trending-list-item .player-details .name {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 120px
+    }
+.trending-list-item .score {
+    font-size: 13px;
+    font-weight: 800;
+    text-align: right
+    }
+.trending-list-item .game-schedule-live-description {
+    color: #627391
+    }
+.trending-list2 .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.watchlist-player-item .player-details .name {
+    font-size: 13px;
+    font-weight: 700
+    }
+.watchlist-player-item .game-schedule-live-description {
+    color: #627391
+    }
+.watchlist-player-item .player-scoring {
+    color: #fff;
+    text-align: center
+    }
+.watchlist-player-item .player-scoring .projections {
+    color: #fff;
+    opacity: 0.7
+    }
+.invited-prompt .channel-invite .channel-meta .name {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 40px 0 10px 0;
+    text-align: center
+    }
+.invited-prompt .channel-invite .channel-meta .description {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px
+    }
+.invited-prompt .draftboard-invite .avatar-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    background: #fff
+    }
+.invited-prompt .draftboard-invite .name {
+    margin-top: 50px;
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center
+    }
+.invited-prompt .draftboard-invite .meta {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    width: 100%
+    }
+.invited-prompt .league-invite .league-invite-item .league-meta .name {
+    margin-top: 40px;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1.25
+    }
+.invited-prompt .league-invite .league-invite-item .league-meta .name strong {
+    font-weight: 600
+    }
+.invited-prompt .league-invite .league-invite-item .league-meta .description {
+    margin: 15px 0 30px 0;
+    font-size: 16px;
+    opacity: 0.8
+    }
+.unauthenticated-invited-page .channel-invite .channel-invite-item .channel-meta .name {
+    margin-top: 40px;
+    font-size: 38px;
+    font-weight: 300;
+    line-height: 1.25
+    }
+.unauthenticated-invited-page .channel-invite .channel-invite-item .channel-meta .name strong {
+    font-weight: 300
+    }
+.unauthenticated-invited-page .channel-invite .channel-invite-item .channel-meta .description {
+    margin: 15px 0 30px 0;
+    font-size: 16px;
+    opacity: 0.8
+    }
+.unauthenticated-invited-page .league-invite .league-invite-item .league-meta .name {
+    margin-top: 40px;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1.25
+    }
+.unauthenticated-invited-page .league-invite .league-invite-item .league-meta .name strong {
+    font-weight: 600
+    }
+.unauthenticated-invited-page .league-invite .league-invite-item .league-meta .description {
+    margin: 15px 0 30px 0;
+    font-size: 16px;
+    opacity: 0.8
+    }
+.add-player-panel .game-schedule-live-description {
+    color: #a3bbd3
+    }
+.assign-draft-order-modal .channel-settings-body .user .name {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    flex-grow: 1
+    }
+.draft-queue-player-item .draft-queue-player-item-player .meta-container .name {
+    font-weight: 700;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    color: #3a465b;
+    max-width: 110px
+    }
+.draft-queue-player-item.theme-dark .draft-queue-player-item-player .meta-container .name {
+    color: #fff
+    }
+.draft-roster-list-item .player-data .name {
+    font-size: 12px;
+    font-weight: 700
+    }
+.draft-roster2 .owner-selector .selected-team .avatar {
+    margin-right: 10px
+    }
+.draft-roster2 .owner-selector .owner-selector-items-container .owner-selector-item .avatar {
+    margin-right: 10px
+    }
+.draft_tab_view_results .player_list_dropdowns.theme-light .dropdown-items .app-dropdown-item .meta .name {
+    color: #000
+    }
+.draft_tab_view_results .player_list_dropdowns.theme-light .dropdown-items .app-dropdown-item.selected .name {
+    color: #000
+    }
+.draft_tab_view_results .app-dropdown .dropdown-items .app-dropdown-item .meta .name {
+    color: #fff
+    }
+.draft_tab_view_results .app-dropdown .dropdown-items .app-dropdown-item.selected .name {
+    color: #000
+    }
+.edit-co-owner-settings .section .section-content .co-owner-row .name {
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-left: 8px;
+    color: #fff
+    }
+.edit-commish-settings .channel-settings-body .description {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 13px
+    }
+.edit-draft-order-modal .team-item .name {
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: bold
+    }
+.sortable-list-team-item-modal .name {
+    padding-left: 10px;
+    font-weight: bold
+    }
+.edit-draft-order .draft-order-item .name {
+    flex-grow: 1;
+    font-weight: bold;
+    margin-left: 5px
+    }
+.edit-draft-order .draft-order-item.empty .name {
+    color: #fff;
+    font-weight: normal
+    }
+.edit-draft-settings .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.edit-league-settings .row {
+    display: flex;
+    align-items: center
+    }
+.game-schedule-live-description {
+    display: flex;
+    font-size: 11px;
+    position: relative;
+    color: #7988a1;
+    align-items: center
+    }
+.game-schedule-live-description .rz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    border-radius: 3px;
+    background: #ff2a6d;
+    color: #fff;
+    font-weight: bold;
+    font-size: 8px;
+    margin: 0 3px;
+    position: relative;
+    top: -1px
+    }
+.game-schedule-live-description .great {
+    color: #ec5556
+    }
+.game-schedule-live-description .good {
+    color: #eb7200
+    }
+.game-schedule-live-description .avg {
+    color: #67c314
+    }
+.game-schedule-live-description .bad {
+    color: #00a300
+    }
+.league-header .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.league-header .name {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    line-height: 24px
+    }
+.league-panel-header .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.league-panel-header .post-draft-league-header .name {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 32px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 8px;
+    font-family: "Poppins", sans-serif
+    }
+.league-matchups-modal .team-owner-matchup-row .user.reverse .avatar-container {
+    margin-left: 0
+    }
+.league-matchups-modal .team-owner-matchup-row .user.reverse .meta .name, .league-matchups-modal .team-owner-matchup-row .user.reverse .meta .description {
+    text-align: left
+    }
+.league-matchups-modal .matchup-detail .roster-matchup-row .roster-matchup-row-player:first-child .player-meta .player-stat-text {
+    align-self: flex-end
+    }
+.league-members-container .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.league-members-container .teams-container .meta {
+    display: flex;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative
+    }
+.league-members-container .teams-container .meta .team-name {
+    margin-left: 4px;
+    max-width: 40 !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+    }
+.league-members-container .teams-container .meta .name {
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis
+    }
+.league-members-container .teams-container .meta .name .commish-badge {
+    margin: 0
+    }
+.league-members-container .teams-container .meta .description {
+    position: absolute;
+    top: 20px;
+    width: 130px;
+    height: 12px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: #a3bbd3
+    }
+.league-panel .settings-section .settings-row .name {
+    flex-grow: 1;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 13px
+    }
+.league-panel .settings-section .settings-row.stack .name {
+    margin-bottom: 5px
+    }
+.league-players-list .league-players-list-item .player-info .avatar {
+    margin-left: 15px
+    }
+.league-players-list .league-players-list-item .player-info .player-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px
+    }
+.league-players-list .league-players-list-item .player-info .player-name .meta {
+    font-size: 13px;
+    font-weight: bold;
+    display: flex
+    }
+.league-players-list .league-players-list-item .player-info .player-name .meta .injury-status {
+    font-weight: normal;
+    margin-left: 5px;
+    font-size: 11px;
+    color: #f00;
+    align-self: center
+    }
+.league-players-list .league-players-list-item .player-info .player-name .meta .injury-status.probable {
+    color: #ffa500
+    }
+.league-players-list .league-players-list-item .player-info .player-name .team {
+    font-size: 11px;
+    font-weight: normal;
+    align-self: center;
+    margin-left: 5px
+    }
+.league-players-panel .header .row {
+    display: flex
+    }
+.league-players-panel .header .row > div {
+    padding: 8px 0 8px 10px
+    }
+.league-players-panel .header .row > .rank {
+    width: 40px;
+    padding-right: 5px
+    }
+.league-players-panel .header .row > .position {
+    width: 40px
+    }
+.league-players-panel .header .row > .name {
+    width: 205px;
+    padding-left: 10px
+    }
+.league-players-panel .header .row > .pts-and-proj {
+    width: 90px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px
+    }
+.league-players-panel .header .row > .rush-header, .league-players-panel .header .row > .rec-header, .league-players-panel .header .row > .pass-header {
+    width: 140px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px
+    }
+.league-players-panel .hide-owned .name {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 3px
+    }
+.league-players-panel .player-rank-item.show-watchlist-action:hover .name {
+    padding-left: 35px !important
+    }
+.league-players-panel .player-rank-item.watching .name {
+    padding-left: 35px !important
+    }
+.league-players-panel .player-rank-item > .name {
+    width: 216px;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: relative
+    }
+.league-players-panel .player-rank-item > .name .name-wrapper {
+    text-align: left;
+    font-weight: bold;
+    overflow: hidden;
+    position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    flex-grow: 1
+    }
+.league-players-panel .player-rank-item > .name .injury-status {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #f00
+    }
+.league-players-panel .player-rank-item > .name .injury-status.probable {
+    color: #ffa500
+    }
+.league-players-panel .player-rank-item > .name .team {
+    font-size: 11px;
+    color: #777;
+    padding-left: 10px
+    }
+.league-players-panel .player-rank-item > .name .watchlist-action {
+    padding-right: 5px;
+    transform: scale(0);
+    transition: all 0.2s ease;
+    position: absolute;
+    left: 3px;
+    padding: 10px
+    }
+.league-players-panel .player-rank-item > .name .watchlist-action .fa-plus {
+    font-size: 6px
+    }
+.league-players-panel .header-row {
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    cursor: pointer
+    }
+.league-players-panel .header-row .header-cell {
+    font-size: 10px;
+    box-sizing: border-box
+    }
+.league-players-panel .player-grid-cell .player-name {
+    cursor: pointer
+    }
+.league-players-panel .player-grid-cell .player-info .avatar {
+    margin-left: 15px
+    }
+.league-players-panel .player-grid-cell .player-info .player-name {
+    -webkit-flex: 0 0 250px;
+    -ms-flex: 0 0 250px;
+    flex: 0 0 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10px
+    }
+.league-players-panel .player-grid-cell .player-info .player-name .meta {
+    font-size: 13px;
+    font-weight: bold;
+    display: flex
+    }
+.league-players-panel .player-grid-cell .player-info .player-name .meta .injury-status {
+    font-weight: normal;
+    margin-left: 5px;
+    font-size: 11px;
+    color: #f00;
+    align-self: center
+    }
+.league-players-panel .player-grid-cell .player-info .player-name .meta .injury-status.probable {
+    color: #ffa500
+    }
+.league-players-panel .player-grid-cell .player-info .player-name .team {
+    font-size: 11px;
+    font-weight: normal;
+    align-self: center;
+    margin-left: 5px
+    }
+.league-players-panel .stat-filter .position-filter .filter-item .name {
+    text-align: center;
+    font-weight: bold
+    }
+.league-players-side-panel .trending-list > .players-list > .trending-item > .score {
+    font-size: 12px
+    }
+.league-players-side-panel .game-center-leaderboard > .players-list > .player-item > .player-meta .player-stat-text {
+    color: #777
+    }
+.league-players-side-panel .game-center-leaderboard > .players-list > .player-item > .score {
+    font-size: 12px
+    }
+.playoff-modal .row {
+    display: flex;
+    align-items: center;
+    flex-direction: row
+    }
+.league-research-panel .trending-panel .league-research-section .trending-list > .players-list > .trending-item .score {
+    -webkit-flex: 0;
+    -ms-flex: 0;
+    flex: 0
+    }
+.league-research-panel .leaders-panel .game-center-leaderboard .players-list .player-item .player-meta .name {
+    color: #555
+    }
+.league-research-panel .leaders-panel .game-center-leaderboard .players-list .player-item .player-meta .player-stat-text {
+    color: #555
+    }
+.league-research-panel .leaders-panel .game-center-leaderboard .players-list .player-item .score {
+    color: #555;
+    -webkit-flex: 0;
+    -ms-flex: 0;
+    flex: 0
+    }
+.league-settings-panel .description {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #a3bbd3;
+    line-height: 14px
+    }
+.league-settings-panel .settings-section .settings-row .name {
+    flex-grow: 1;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 13px
+    }
+.league-settings-panel .row {
+    display: flex;
+    align-items: center
+    }
+.league-slot-position-square.super_flex .row, .league-slot-position-square.super .row {
+    margin: 0;
+    padding: 0
+    }
+.league-slot-position-square.super_flex .row div, .league-slot-position-square.super .row div {
+    height: 15px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 10px
+    }
+.league-standings .unowned-team .team-name {
+    font-size: 12px;
+    font-weight: bold
+    }
+.league-standings .unowned-team .description {
+    color: #ccc;
+    margin-top: 3px;
+    font-size: 11px
+    }
+.league-transaction-item-waiver-container .league-transaction-item-waiver .meta .team-owner-with-description {
+    padding-top: 8px
+    }
+.league-transaction-item-waiver-container .league-transaction-item-waiver .meta .team-owner-with-description .meta .name {
+    font-size: 16px;
+    font-family: "Inter", sans-serif
+    }
+.league-transaction-item-waiver-container .league-transaction-item-waiver .name {
+    overflow: hidden;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px
+    }
+.league-transaction-item-waiver-container .league-transaction-item-waiver .name .action-label {
+    color: #00ceb8
+    }
+.league-waiver-claims-panel .league-waiver-claims-panel-header .meta {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding-left: 10px
+    }
+.league-waiver-claims-panel .league-waiver-claims-panel-header .meta .name {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 3px
+    }
+.league-waiver-claims-panel .league-waiver-claims-panel-header .meta .position {
+    font-size: 11px;
+    color: #999
+    }
+.fast-five-player-indicator .row {
+    display: flex;
+    align-items: center
+    }
+.fast-five-player-indicator .content-row .description {
+    font-family: "Poppins";
+    font-size: 10px;
+    line-height: 12px;
+    color: #fff
+    }
+.fast-five-player-indicator .content-row .score {
+    font-size: 14px;
+    color: #fff;
+    font-family: "Poppins";
+    font-weight: bold
+    }
+.fast-five-promo-banner .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.fast-five-promo-modal .row {
+    display: flex;
+    align-items: center
+    }
+.fast-five-promo-modal .fast-five-modal-content .pos-item .description {
+    font-size: 10px;
+    line-height: 15px;
+    font-family: "Poppins";
+    font-weight: medium;
+    color: #fff;
+    text-align: center;
+    margin-top: 2px
+    }
+.lol_matchup_card_container .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.lol_matchup_card_container .avatar-container {
+    position: absolute;
+    top: -20px;
+    z-index: 10
+    }
+.lol-pick-ban-slider .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.lol-pick-ban-slider .content .player-name {
+    color: #fff;
+    size: 18px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 12px
+    }
+.play-rate-card .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+    }
+.lol-player-game-summary .description {
+    color: #b9c4d4;
+    font-size: 10px
+    }
+.lol-player-versus-card .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.lol-score-and-projection-row .row {
+    display: flex;
+    flex-direction: row
+    }
+.lol-starter-card .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.lol-starter-card .player-header .player-meta-container .player-name {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 100px
+    }
+.search-champion-panel .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.matchup-header .matchup-owner-item {
+    flex-grow: 1
+    }
+.matchup-owner-item {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    background: rgba(163, 187, 211, 0.05);
+    position: relative;
+    border-radius: 26px;
+    border: 1px solid rgba(58, 70, 91, 0.5)
+    }
+.matchup-owner-item .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.matchup-owner-item .row.flip {
+    flex-direction: row-reverse
+    }
+.matchup-owner-item .row.space-between {
+    justify-content: space-between
+    }
+.matchup-owner-item .bottom-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 48px
+    }
+.matchup-owner-item .bottom-row.flip {
+    flex-direction: row-reverse;
+    margin-left: 0 !important;
+    margin-right: 48px
+    }
+.matchup-owner-item .bottom-row.space-between {
+    justify-content: space-between
+    }
+.matchup-owner-item .win-percentage-number {
+    font-size: 10px;
+    color: #fff;
+    font-weight: bold
+    }
+.matchup-owner-item .win-bar {
+    position: absolute;
+    display: flex;
+    width: 90%;
+    background-color: rgba(58, 70, 91, 0.5);
+    height: 4px;
+    overflow: hidden;
+    border-top-right-radius: 4px;
+    bottom: 4px;
+    left: 32px;
+    z-index: 0
+    }
+.matchup-owner-item .win-bar.flip {
+    flex-direction: row-reverse;
+    left: auto;
+    right: 32px
+    }
+.matchup-owner-item .owner-container {
+    flex-grow: 1;
+    position: relative
+    }
+.matchup-owner-item .owner-container .avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #45e6a7;
+    border-radius: 50%;
+    z-index: 10;
+    background-color: #293042
+    }
+.matchup-owner-item .owner-container .avatar-container.flip {
+    border: 2px solid #f75c8d
+    }
+.matchup-owner-item .owner-container .meta {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    font-family: "Inter";
+    margin-left: 8px
+    }
+.matchup-owner-item .owner-container .meta.flip {
+    margin-left: auto;
+    margin-right: 8px
+    }
+.matchup-owner-item .owner-container .meta.flip .team-name {
+    align-self: flex-end
+    }
+.matchup-owner-item .owner-container .meta.flip .name {
+    align-self: flex-end
+    }
+.matchup-owner-item .owner-container .name {
+    font-size: 12px;
+    font-weight: bold;
+    overflow: hidden;
+    margin-top: 4px;
+    color: #fff;
+    line-height: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 80px;
+    text-overflow: ellipsis
+    }
+.matchup-owner-item .owner-container .team-name {
+    margin-top: 4px;
+    font-size: 10px;
+    color: #a3bbd3;
+    line-height: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 80px;
+    text-overflow: ellipsis
+    }
+.matchup-owner-item .description {
+    font-size: 10px;
+    color: #a3bbd3;
+    margin: 0 8px
+    }
+.matchup-owner-item .roster-score-and-projection-matchup .score {
+    font-size: 12px
+    }
+.matchup-player-item {
+    display: flex;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    flex-direction: column;
+    position: relative
+    }
+.matchup-player-item.empty-player .matchup-player-body-item {
+    display: flex;
+    justify-content: center
+    }
+.matchup-player-item .header-row {
+    height: 32px;
+    min-height: 32px;
+    display: flex;
+    align-items: flex-end;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    justify-content: space-between;
+    margin-right: 20px
+    }
+.matchup-player-item .header-row .player-pos {
+    color: #a3bbd3;
+    font-size: 10px;
+    font-family: "Inter";
+    padding-left: 5px;
+    padding-right: 5px
+    }
+.matchup-player-item .header-row.flip {
+    flex-direction: row-reverse;
+    margin-left: 16px;
+    margin-right: 0
+    }
+.matchup-player-item .header-row.flip .player-name {
+    flex-direction: row-reverse
+    }
+.matchup-player-item .header-row.flip .nickname-container {
+    flex-direction: row-reverse
+    }
+.matchup-player-item .player-image {
+    height: 32px;
+    width: 44px;
+    object-fit: cover
+    }
+.matchup-player-item .player-name {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 8px
+    }
+.matchup-player-item .nickname-container {
+    display: flex;
+    align-items: center
+    }
+.matchup-player-item .nickname-container .roster-nickname {
+    color: #00baff;
+    font-size: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-bottom: 6px
+    }
+.matchup-player-item .nickname-container.flip .roster-nickname {
+    color: #fff
+    }
+.matchup-player-item .injury-container {
+    margin-left: 4px;
+    padding-bottom: 2px
+    }
+.matchup-player-body-item {
+    display: flex;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    flex-grow: 1;
+    flex-direction: column;
+    background-color: rgba(163, 187, 211, 0.05);
+    border-radius: 16px;
+    padding: 12px;
+    box-sizing: border-box;
+    min-height: 60px;
+    cursor: pointer;
+    border: 1px solid rgba(58, 70, 91, 0.5);
+    position: relative
+    }
+.matchup-player-body-item .possession-indicator-wrapper {
+    position: absolute;
+    top: 0;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    left: 40px;
+    right: 10px
+    }
+.matchup-player-body-item .possession-indicator-wrapper.flip {
+    left: 10px;
+    right: 40px
+    }
+.matchup-player-body-item .container-row {
+    display: flex;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    justify-content: space-between;
+    align-items: flex-start
+    }
+.matchup-player-body-item .container-row.flip {
+    flex-direction: row-reverse
+    }
+.matchup-player-body-item .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.matchup-player-body-item .row.flip {
+    flex-direction: row-reverse
+    }
+.matchup-player-body-item .column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 8px
+    }
+.matchup-player-body-item .column.flip {
+    align-items: flex-end
+    }
+.matchup-player-row-container .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.matchup-player-row-container .player-image-row .player-image-item .player-image {
+    height: 32px;
+    width: 44px;
+    object-fit: cover
+    }
+.matchup-player-row-container .player-image-row .player-image-item .player-name {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 8px
+    }
+.matchup-player-row-container .player-image-row .player-image-item .player-pos {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    line-height: 12px;
+    color: #7988a1;
+    margin: 0 4px
+    }
+.roster-matchup-tab-wrapper .row {
+    display: flex;
+    align-items: center;
+    flex-direction: row
+    }
+.possession-indicator-rate {
+    display: flex;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    align-items: center
+    }
+.possession-indicator-rate .divider {
+    position: relative;
+    justify-content: flex-start;
+    display: flex;
+    height: 4px;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-color: #3a465b
+    }
+.possession-indicator-rate .divider.flip {
+    justify-content: flex-end
+    }
+.my-trade-transactions .team-owner-with-description .name {
+    color: #f5f5f5 !important
+    }
+.player-scoring {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-family: "Inter", sans-serif
+    }
+.player-scoring .projections {
+    font-size: 11px;
+    font-weight: normal;
+    color: #a3bbd3
+    }
+.player-scoring .score {
+    font-size: 12px;
+    margin-bottom: 2px
+    }
+.player-scoring .overperform {
+    color: #00ceb8
+    }
+.player-scoring .underperform {
+    color: #ff2a6d
+    }
+.player-scoring .fa-caret-up, .player-scoring .fa-caret-down {
+    color: #102131
+    }
+.player-scoring .player-scoring-wrapper {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    z-index: 999
+    }
+.player-stat-text {
+    font-size: 11px
+    }
+.league-tab-container .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Poppins", sans-serif
+    }
+.league-tab-container .league-tab-standings .league-standing-list .team-owner-with-description .avatar-container {
+    margin-right: 4px
+    }
+.league-tab-container .league-tab-standings .league-standing-list .team-owner-with-description .meta {
+    display: flex;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    flex-direction: row;
+    align-items: center
+    }
+.league-tab-container .league-tab-standings .league-standing-list .team-owner-with-description .meta .team-name {
+    margin-left: 4px;
+    max-width: 40 !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+    }
+.league-tab-container .league-tab-standings .league-standing-list .team-owner-with-description .meta .name {
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis
+    }
+.league-tab-container .league-tab-standings .league-standing-list .team-owner-with-description .meta .name .commish-badge {
+    margin: 0
+    }
+.league-tab-container .league-tab-standings .league-standing-list .team-owner-with-description .meta .description {
+    position: absolute;
+    color: #fff;
+    font-size: 16px;
+    right: 0
+    }
+.league-tab-container .league-settings-container .league-settings .settings-row .name {
+    color: #7988a1;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600px
+    }
+.scoring-container .scoring-settings .settings-row .name {
+    font-size: 12px;
+    color: #7988a1;
+    font-weight: 600px
+    }
+.trade-panel-container .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.roster-matchup-player-item .player-meta .player-info .player-name {
+    font-family: "Muli";
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff
+    }
+.roster-matchup-player-item .player-meta .game-schedule-live-description {
+    color: #a3bbd3
+    }
+.roster-matchup-player-item .player-scoring {
+    flex-basis: 40px;
+    text-align: right
+    }
+.roster-matchup-player-item .player-scoring .score {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    color: #fff
+    }
+.roster-matchup-player-item .player-scoring .projections {
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    color: #a3bbd3;
+    padding-top: 2px
+    }
+.roster-matchup-player-item .player-stat-text {
+    text-align: left
+    }
+.roster-matchup-player-item.flip .player-stat-text {
+    text-align: right
+    }
+.roster-matchup-player-item.flip .player-scoring {
+    text-align: left
+    }
+.roster-matchup .roster-matchup-row .game-schedule-live-description {
+    text-align: left
+    }
+.roster-matchup .roster-matchup-row .roster-matchup-row-player .game-schedule-live-description {
+    text-align: right
+    }
+.roster-matchup .roster-matchup-row .roster-matchup-row-player .player-stat-text {
+    text-align: right;
+    margin-top: 4px;
+    color: #777;
+    max-width: 131px;
+    white-space: normal
+    }
+.roster-matchup .roster-matchup-row .roster-matchup-row-player:nth-child(3n+0) .game-schedule-live-description {
+    text-align: left
+    }
+.roster-matchup .roster-matchup-row .roster-matchup-row-player:nth-child(3n+0) .player-stat-text {
+    text-align: left
+    }
+.roster-matchup .roster-matchup-row .player-scoring {
+    text-align: center;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+    }
+.roster-matchup .roster-matchup-row .player-scoring .projections {
+    text-align: center
+    }
+.roster-matchup2 .roster-matchup-row .roster-matchup-row-player2 .player-scoring .score {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    color: #fff
+    }
+.roster-matchup2 .roster-matchup-row .roster-matchup-row-player2 .player-scoring .projections {
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    color: #a3bbd3;
+    padding-top: 2px
+    }
+.roster-matchup2 .roster-matchup-row .roster-matchup-player-item .player-stat-text {
+    margin-top: 6px;
+    color: #edf2f9;
+    white-space: normal;
+    line-height: 1.18
+    }
+.roster-matchup2 .roster-matchup-row .roster-matchup-player-item:nth-child(3n+0) .game-schedule-live-description {
+    text-align: left;
+    font-size: 8px
+    }
+.roster-matchup2 .roster-matchup-row .roster-matchup-player-item:nth-child(3n+0) .player-stat-text {
+    text-align: left
+    }
+.roster-score-and-projection-matchup {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    margin-right: 6px
+    }
+.roster-score-and-projection-matchup .projections {
+    display: flex;
+    font-size: 10px;
+    font-weight: normal;
+    color: #a3bbd3;
+    margin: 0 3px;
+    margin-top: 1px
+    }
+.score-breakdown > .header > .name {
+    -webkit-flex: 0 0 120px;
+    -ms-flex: 0 0 120px;
+    flex: 0 0 120px;
+    padding-right: 5px
+    }
+.score-breakdown > .stat-row > .score {
+    font-weight: bold;
+    -webkit-flex: 0 0 40px;
+    -ms-flex: 0 0 40px;
+    flex: 0 0 40px
+    }
+.selectable-roster .team-roster-item .player-stat-text {
+    margin-top: 5px
+    }
+.selectable-roster .team-roster-item .player-scoring {
+    color: #fff
+    }
+.selectable-roster .team-roster-item .player-scoring .projections {
+    color: #a3bbd3
+    }
+.set-keepers-panel .channel-settings-body .content .select-keeper-item .player-name {
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    margin-bottom: 2px
+    }
+.user-tab-menu .row {
+    display: flex;
+    align-items: center;
+    flex-direction: row
+    }
+.user-tab-menu .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 24px;
+    position: relative
+    }
+.user-tab-menu .info .name-row .name {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: "Poppins"
+    }
+.team-owner-matchup-row .user .team-owner-matchup-roster .team-owner-with-description .team-name {
+    max-width: 60px
+    }
+.team-owner-matchup-row .user.reverse .team-owner-with-description .avatar-container {
+    margin-right: 0;
+    margin-left: 10px
+    }
+.team-owner-matchup-row .user.reverse .team-owner-with-description .avatar {
+    margin-right: 0
+    }
+.team-owner-matchup-row .user.reverse .team-owner-with-description .meta {
+    margin-left: 10px;
+    margin-right: 0
+    }
+.team-owner-matchup-row .player-scoring {
+    width: 40px;
+    text-align: center
+    }
+.team-owner-with-description .avatar-container {
+    margin-right: 10px
+    }
+.team-owner-with-description > .meta > .name {
+    font-weight: bold;
+    color: #fff;
+    font-size: 12px;
+    text-transform: none;
+    position: relative
+    }
+.team-owner-with-description > .meta > .name .commish-badge {
+    position: relative;
+    top: 3px;
+    margin-left: 5px
+    }
+.team-owner-with-description > .meta > .team-name {
+    margin-top: 3px;
+    font-weight: normal;
+    color: #ccc;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: none;
+    max-width: 110px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+    }
+.team-owner-with-description > .meta > .description {
+    font-size: 11px;
+    color: #aaa;
+    margin-top: 3px;
+    margin-bottom: 1px
+    }
+.team-panel .team-roster .player-scoring {
+    color: #fff
+    }
+.team-roster .row {
+    display: flex;
+    align-items: center
+    }
+.team-roster .player-scoring {
+    text-align: right
+    }
+.team-roster .player-name {
+    font-size: 14px;
+    color: #fff;
+    font-family: "Inter";
+    margin-right: 4px
+    }
+.team-roster .game-schedule-live-description {
+    margin: 6px 0;
+    display: flex;
+    align-items: center
+    }
+.team-roster .player-stat-text {
+    color: #a3bbd3
+    }
+.trade-modal .rosters-container .roster-item-container .roster .team-roster-item .game-schedule-live-description {
+    color: #fff;
+    opacity: 0.7
+    }
+.trade-modal .trade-state .trade-state-player .player-name {
+    font-weight: bold
+    }
+.trade-modal .acquire-trade-partner-item > .meta {
+    display: flex;
+    align-items: center;
+    padding: 15px 25px
+    }
+.trade-modal .acquire-trade-partner-item > .meta .name-container {
+    flex-grow: 1
+    }
+.trade-modal .acquire-trade-partner-item > .meta .trade-btn {
+    background: #58a7ff;
+    font-size: 10px
+    }
+.trade-preview-roster .team-roster-item .game-schedule-live-description {
+    color: #fff;
+    opacity: 0.7
+    }
+.propose-trade-partners .description {
+    font-size: 14px;
+    color: #eef3f7
+    }
+.propose-trade-partners .row {
+    display: flex;
+    align-items: center
+    }
+.select-trade-partners .row {
+    display: flex;
+    flex-direction: row
+    }
+.trade-block-pick .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.trade-block-player .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.trade-block-player .avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 24px;
+    border-radius: 24px;
+    position: relative
+    }
+.trade-block-player .avatar-container .heart-container {
+    position: absolute;
+    top: -3px;
+    right: -5px
+    }
+.trade-block-player .player-name {
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Inter";
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+    }
+.trade-center-asset-select-list .row {
+    display: flex;
+    align-items: center
+    }
+.trade-center-asset-select-list .avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    border-radius: 48px;
+    background-image: linear-gradient(#3a465b, #a3bbd3);
+    overflow: hidden;
+    position: relative
+    }
+.trade-center-modal .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.trade-center-player-box .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.trade-center-player-box .player-name {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Inter";
+    line-height: 20px;
+    max-width: 90px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+    }
+.trade-center-wrapper .row {
+    display: flex;
+    align-items: center
+    }
+.trade-interest-modal .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.trade-interest-modal .player-meta .player-name {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600
+    }
+.trade-interest-modal .player-meta .player-pos {
+    font-size: 12px;
+    color: #a3bbd3;
+    margin-top: 4px
+    }
+.trade-list-item-dm .row {
+    display: flex;
+    align-items: center
+    }
+.trade-list-item-dm .avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    border-radius: 32px;
+    position: relative
+    }
+.trade-list-item-dm .meta {
+    margin-left: 8px;
+    margin-bottom: 8px
+    }
+.trade-list-item-dm .meta .meta-1 {
+    font-size: 12px;
+    line-height: 14px;
+    font-family: "Inter";
+    color: #fff;
+    font-weight: 500
+    }
+.trade-list-item-dm .meta .meta-2 {
+    font-size: 10px;
+    line-height: 12px;
+    font-family: "Inter";
+    color: #d8e2ed;
+    font-weight: 500
+    }
+.trade-list-item .row {
+    display: flex;
+    align-items: center
+    }
+.trade-list-item .assets-container .player-name {
+    font-size: 9px;
+    color: #fff;
+    max-width: 45px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 4px;
+    line-height: 10px;
+    font-family: "Inter"
+    }
+.trade-partner-roster-item .avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    border-radius: 48px;
+    background-image: linear-gradient(to left top, #3a465b, #a3bbd3);
+    overflow: hidden;
+    position: relative
+    }
+.trade-partner-roster-item .avatar-container .selected-over {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 206, 184, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    align-items: center;
+    justify-content: center
+    }
+.trade-partner-roster-item .avatar-container .selected-over .selected-text {
+    font-size: 12px;
+    color: #fff;
+    font-family: "Poppins";
+    z-index: 30
+    }
+.trade-proposal-summary .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.trade-summary .row {
+    display: flex;
+    align-items: center
+    }
+.trade-summary .roster-trade-container .roster-trade-summary .panel .meta {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px
+    }
+.trade-summary .roster-trade-container .roster-trade-summary .panel .meta .meta-text-1 {
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "Inter";
+    font-weight: 600
+    }
+.trade-summary .roster-trade-container .roster-trade-summary .panel .meta .meta-text-2 {
+    color: #d8e2ed;
+    font-size: 10px;
+    line-height: 12px;
+    font-family: "Inter"
+    }
+.transaction-player .player-name {
+    margin-right: 3px
+    }
+.transaction-player .meta {
+    font-size: 10px;
+    color: #aaa
+    }
+.transaction-trade-item .roster-item .owner-container {
+    -webkit-flex: 0 0 150px;
+    -ms-flex: 0 0 150px;
+    flex: 0 0 150px
+    }
+.transaction-trade-item .roster-item .owner-container .meta .name {
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+    }
+.waivers-panel .channel-settings-header .description {
+    line-height: 1.3
+    }
+.lol-league-standings-container .row {
+    display: flex;
+    flex-direction: row
+    }
+.team-name {
+    color: #d8e2ed;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: "Inter";
+    font-weight: 500;
+    margin-bottom: 8px
+    }
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.lol-weekly-report-message .row {
+    display: flex;
+    align-items: center
+    }
+.lol-weekly-report-modal .row {
+    display: flex;
+    align-items: center
+    }
+.lol-weekly-report-modal .divider {
+    height: 244px;
+    width: 1px;
+    background-color: rgba(106, 119, 144, 0.7);
+    margin: 0 24px
+    }
+.lol-weekly-report-modal .top-player-card .mid-section .player-name {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center
+    }
+.weekly-report-owner-item .owner-row .owner-meta .team-name {
+    font-size: 11px;
+    color: #999
+    }
+.weekly-report-player-item .owner-row .owner-meta .team-name {
+    font-size: 11px;
+    color: #999;
+    margin-top: 3px
+    }
+.channel-item-wrapper .channel-item > .meta {
+    flex-grow: 1
+    }
+.channel-item-wrapper .channel-item .description {
+    font-size: 10px;
+    color: #fff;
+    opacity: 0.8;
+    margin-top: 3px;
+    font-family: "Inter", sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 130px;
+    text-overflow: ellipsis
+    }
+.large-left-panel .divider {
+    background-color: #61707e;
+    margin-left: 16px;
+    margin-right: 36px;
+    display: flex;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 2px
+    }
+.nav-draftboard-item .description {
+    font-size: 10px;
+    color: #fff;
+    opacity: 0.75;
+    margin-top: 2px;
+    font-family: "Inter", sans-serif
+    }
+.nav-inbox-item .description {
+    font-size: 10px;
+    color: #fff;
+    opacity: 0.75;
+    margin-top: 2px
+    }
+.nav-league-create-item .description {
+    font-size: 12px;
+    color: #fff;
+    opacity: 0.75;
+    padding-top: 5px
+    }
+.nav-league-item-wrapper .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3px
+    }
+.nav-league-item-wrapper .nav-league-item .nav-info-container .score-container .roster-score-and-projection-matchup {
+    margin: 0
+    }
+.nav-league-item-wrapper .nav-league-item .nav-info-container .score-container .score {
+    font-size: 10px;
+    opacity: 0.7;
+    font-family: "Inter", sans-serif
+    }
+.league-request-item > .request .row {
+    display: flex
+    }
+.league-request-item > .request .meta {
+    flex-grow: 1
+    }
+.league-request-item > .request .meta > .name {
+    color: #fff;
+    opacity: 0.8;
+    font-size: 14px;
+    width: 104px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 3px;
+    font-weight: bold;
+    position: relative;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    font-family: "Muli"
+    }
+.league-request-item > .request .meta > .description {
+    font-size: 10px;
+    color: #fff;
+    flex-grow: 1;
+    opacity: 0.7;
+    line-height: 15px
+    }
+.league-request-item > .request .meta .invite-by {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    color: #fff;
+    opacity: 0.7;
+    margin-top: 2px
+    }
+.nav-league-section-header .row {
+    display: flex;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    flex-direction: row;
+    align-items: flex-end;
+    cursor: pointer;
+    font-family: "Inter", sans-serif
+    }
+.nav-managed-league-event-item .score-container .score {
+    font-size: 10px;
+    color: #fff;
+    opacity: 0.7;
+    line-height: 15px
+    }
+.nav-private-messages-item .description {
+    font-size: 10px;
+    color: #fff;
+    opacity: 0.75;
+    margin-top: 2px
+    }
+.profile-wrapper .nav-profile-item .avatar {
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+    margin-left: 4px
+    }
+.profile-wrapper .nav-profile-item .name {
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+    }
+.nav-search .name {
+    margin: 0 10px 0 15px;
+    text-align: left
+    }
+.nav-search .meta {
+    margin: 3px 10px 0 15px;
+    text-align: left
+    }
+.landing-logo .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 7px;
+    padding-top: 3px;
+    letter-spacing: 0.2px
+    }
+.create-dm-panel .search-result-item .avatar {
+    margin-right: 15px
+    }
+.create-dm-panel .friend-result-item .avatar {
+    margin-right: 15px
+    }
+.dm-header > .name-container .meta {
+    display: flex;
+    color: #bbb;
+    font-size: 11px;
+    line-height: 12px;
+    margin-top: 3px
+    }
+.dm-header > .name-container > .name {
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 0.3px
+    }
+.dm-header > .name-container > .name a {
+    pointer-events: none;
+    text-decoration: none;
+    color: #333
+    }
+.dm-members .member .name {
+    font-size: 13px
+    }
+.message-item .avatars .avatar {
+    position: relative;
+    top: -1px
+    }
+.message-request .avatars .avatar {
+    position: relative;
+    top: -1px
+    }
+.message-request .from .name {
+    font-size: 15px;
+    flex-grow: 1
+    }
+.message-request .description {
+    font-size: 12px;
+    color: #7888a4
+    }
+.messages-panel-header .name-container .name {
+    font-size: 24px;
+    font-weight: 800;
+    font-family: "Muli";
+    line-height: 32px
+    }
+.messages-panel-header .name-container .description {
+    color: #7888a4;
+    font-size: 12px;
+    margin-left: 16px
+    }
+.player-card-header.team-defense .player-image-container .player-image {
+    position: relative;
+    left: 40px;
+    top: -10px
+    }
+.player-card-header .player-image-container .player-image {
+    height: 206px
+    }
+.player-card-header .player-info-container .player-name {
+    font-size: 32px;
+    font-weight: 900;
+    color: #fff;
+    font-family: "Muli";
+    line-height: 1.22;
+    display: flex;
+    align-items: center
+    }
+.player-news .player-news-item .description {
+    font-family: "Lato";
+    line-height: 1.4;
+    font-size: 12px;
+    letter-spacing: 0.03px;
+    color: #666;
+    margin-bottom: 10px
+    }
+.player-projections-table .header-row {
+    padding: 4px;
+    border-bottom: 1px solid #ddd;
+    font-size: 11px;
+    font-weight: 900
+    }
+.player-projections-table .header-row .cell {
+    display: inline-block;
+    min-width: 20px;
+    padding-right: 5px;
+    color: #333
+    }
+.player-projections-table .header-row .opponent {
+    width: 120px
+    }
+.player-projections-table .header-row .pts {
+    width: 40px
+    }
+.player-projections-table .header-row .proj {
+    width: 40px
+    }
+.player-projections-table .week-row .cell .game-schedule-live-description {
+    width: 120px
+    }
+.player-projections-table .week-row .cell .player-scoring {
+    flex-direction: row
+    }
+.player-projections-table .week-row .cell .player-scoring > .score {
+    width: 40px;
+    font-size: 11px
+    }
+.player-projections-table .week-row .cell .player-scoring > .projections {
+    width: 40px
+    }
+.player-stats-grid .column {
+    font-size: 13px
+    }
+.player-stats-grid .column .header-cell {
+    padding-right: 25px;
+    padding-bottom: 10px;
+    font-weight: bold
+    }
+.player-stats-grid .column .cell {
+    height: 30px
+    }
+.player-transaction-history-item .transaction-history-waiver .team-name, .player-transaction-history-item .transaction-history-draft .team-name, .player-transaction-history-item .transaction-history-fa .team-name, .player-transaction-history-item .transaction-history-trade .team-name {
+    font-weight: 900
+    }
+.nba-player-gamelog .header-row {
+    display: flex;
+    flex-direction: row;
+    height: 28px;
+    padding: 4px 0 8px 24px;
+    background: rgba(163, 187, 211, 0.05)
+    }
+.player-card-v2-header .player-image {
+    position: absolute;
+    width: 156px;
+    height: 105px;
+    top: 10px;
+    left: 20px
+    }
+.player-card-v2-header .top-row .player-name {
+    height: 60px;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -1px;
+    text-align: left;
+    color: var(--white)
+    }
+.player-card-v2-header .top-row .player-name .player-last-name {
+    font-weight: 600;
+    margin-left: 8px
+    }
+.player-card-v2-history .history-container .header-row {
+    display: flex;
+    flex-direction: row;
+    height: 28px;
+    padding: 4px 12px 8px 24px;
+    background: rgba(163, 187, 211, 0.05)
+    }
+.predraft-keeper-card-locked .row {
+    display: flex;
+    align-items: center;
+    flex-direction: row
+    }
+.predraft-keeper-card-locked .draft-button .divider {
+    height: 16px;
+    width: 2px;
+    background-color: #022047;
+    margin: 0 4px
+    }
+.predraft-keeper-card-locked .name {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif
+    }
+.league-invite-friends-cta-container .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+    }
+.league-invite-friends-cta-container .divider {
+    display: flex;
+    height: 40px;
+    width: 2px;
+    background-color: #a3bbd3;
+    margin-top: 8px;
+    border-radius: 4px;
+    margin-left: 8px;
+    margin-right: 8px
+    }
+.predraft-draftboard-card .row {
+    display: flex;
+    align-items: center;
+    flex-direction: row
+    }
+.predraft-draftboard-card .draft-button .divider {
+    height: 16px;
+    width: 2px;
+    background-color: #022047;
+    margin: 0 4px
+    }
+.predraft-draftboard-card .name {
+    font-size: 14px;
+    font-family: "Poppins", sans-serif
+    }
+.predraft-draftboard-card .description {
+    font-size: 10px;
+    margin-top: 4px;
+    text-align: center
+    }
+.predraft-tab-container .row {
+    display: flex;
+    align-items: center;
+    flex-direction: row
+    }
+.predraft-tab-container .scoring-settings .settings-row .name {
+    font-size: 12px;
+    color: #7988a1;
+    font-weight: 600px
+    }
+.predraft-tab-container .league-settings-container .league-settings .settings-row .name {
+    color: #7988a1;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600px
+    }
+.user-profile > .body > .profile > .name {
+    font-weight: bold;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px
+    }
+.settings-container .support-settings-page .description {
+    letter-spacing: 0.2px;
+    line-height: 1.64;
+    color: #a3bbd3;
+    font-size: 15px;
+    margin-right: 20px;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1
+    }
+.settings-container .support-settings-page .row {
+    flex-direction: row;
+    margin-bottom: 25px;
+    display: flex
+    }
+.new-side-discussion-topic-form .topic-type-selector .selected-tag-item .meta .title {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    box-sizing: border-box;
+    width: 78px;
+    overflow: hidden;
+    line-height: 18px;
+    border-radius: 0
+    }
+.side-discussion-chat-panel .chat-panel .chat-header .name-container .name {
+    font-size: 14px
+    }
+.side-discussion-container .discussion-nav-container .list-tab .list-tab-header .description {
+    font-size: 12px;
+    margin-top: 5px;
+    opacity: 0.5
+    }
+.sign-up-layout .content-container .avatar {
+    width: 200px;
+    height: 200px;
+    margin: 60px 0 30px 0;
+    border-radius: 50%;
+    border: 8px solid #98df83;
+    display: flex;
+    background: #fff;
+    background-repeat: no-repeat;
+    background-size: 70% 70%;
+    background-position: center center;
+    align-items: center;
+    justify-content: center
+    }
+.video-chat-avatar .avatar {
+    z-index: 2;
+    position: absolute
+    }
+.voice-container .row {
+    display: flex;
+    align-items: center;
+    flex-direction: row
+    }
+.panel-empty-state > .description {
+    font-size: 13px;
+    margin-top: 5px;
+    color: #ccc
+    }
+.context-menu .context-menu-container .context-menu-item .description {
+    font-weight: normal;
+    font-size: 13px;
+    margin-top: 4px;
+    color: #999
+    }
